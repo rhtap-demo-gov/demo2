@@ -30,6 +30,8 @@ spec:
       value: '{{repo_url}}'
     - name: image-expires-after
       value: 5d
+    - name: tls
+      value: false
     - name: output-image
       value: eos-registry-quay-app.openshift-operators.svc.cluster.local:8443/rhtap-demo-gov/demo-python:{{revision}}
     - name: path-context
